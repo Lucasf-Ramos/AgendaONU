@@ -1,0 +1,113 @@
+body{
+    background-color: #e6e2e2;
+    padding: 0; margin: 0; border:0;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+header{
+    background-color: #161818;
+    color: aliceblue;
+    padding:1%;
+    text-align: center;
+    box-shadow: 0px 0px 42px -19px rgba(0,0,0,0.75);
+}
+footer{
+    background-color: #161818;
+    color: aliceblue;
+    padding:1%;
+    text-align: center;
+}
+.nomes{ 
+   
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{font-size: 130%; }
+h2{color:black; text-align: center;}
+.linkTopBar{color:rgb(176, 178, 179); text-decoration: none;}
+.linkTopBar :link{color:rgb(176, 178, 179); text-decoration: none;}
+.linkTopBar:hover{color:rgb(189, 194, 197); text-decoration: underline;font-size: 115%;}
+
+#linkSelect{color:aliceblue; font-size: 115%;}
+#linkSelect:link{color:aliceblue; font-size: 115%;}
+#linkSelect:hover{color:rgb(214, 219, 223);}
+
+article{
+    display: flex;
+    justify-content: left;
+}
+.pricipalBox{
+    background-color: white;
+    margin: 1%;
+    padding: 3%;
+    border-radius: 15px;
+    color: #575757;
+    width: 93%;
+    box-shadow: 0px 0px 42px -19px rgba(0,0,0,0.75);
+}
+.secundaryBox{
+    width: 50%;
+    margin: 1%;
+    
+}
+.exArticle{
+    box-shadow: 0px 0px 42px -19px rgba(0,0,0,0.75);
+    background-color: white;
+    margin-bottom: 4%;
+    padding: 1%;
+    padding-left: 5%;
+    border-radius: 15px;
+    color: #575757;
+    padding-right: 10%;
+}
+.exArticle:hover{
+    font-size: 120%;
+}
+.exArticle:hover .imgNotice{width: 24%;}
+ a:link{text-decoration: none;}
+.leftSide{float: left; margin: 1%; width: 30%;}
+.RightSide{float: right; margin: 1%; width: 30%;} 
+.imgNotice{float: left; margin: 3%; margin-left: 0%; width: 20%;
+}
+button {
+    font-size: 15px;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition-duration: .5s;
+    text-decoration: none;
+    margin-left: 550px;
+    margin-right: 0px;
+    width: 10% 20%;
+    margin-top: 20px;
+      
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+   
+}
+.termos{
+    padding-right: 2.7%;
+    color: #656565;
+}
+
+
+.termos:hover{
+    color: black;
+    font-size: larger;
+}
+
+img{border-radius: 5px;}
+ul{list-style:square; font-size: 114%;}
+ul li::marker{color:rgb(57, 150, 57); width: 110%;}
+ul li a{color:rgb(30, 31, 30);}
+ul li a:hover{color:rgb(49, 189, 49);}
+#prefacio{margin-left:3%; margin-right: 20%;}
+#video{border-style: solid; border-width: 3px; border-radius: 5px; width: 100%; }

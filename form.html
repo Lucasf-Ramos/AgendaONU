@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário de Contato</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="kisspng-logo-room-clip-art-download-icon-png-leaf-5ab08bbb0001e6.6387805015215195470001.ico"/>
+    <style type="text/css">
+        a{margin-left:2%;text-decoration: none; text-align: left;padding: 1%;padding-left: 1%;padding-right: 1%;border-radius: 10px;color:#161818;}
+        div{text-align: center;}
+        .txtBar{background-color: #ffffff;margin-left:-0%;text-align: left;width: 50%; height:5%;padding-left:1%;padding-bottom:1%;padding-top: 1%; border-radius: 10px;color:#161818; text-align: center;}
+		textarea{background-color: #ffffff;margin-left:-0%;text-align: left;padding:1%;border-radius: 10px;color:#161818; text-align: center; border-width: 2px; border-color: black;}
+        .submit{text-align:left;background-color: #161818;padding: 1%;padding-left: 5%;padding-right:5%; color:aliceblue;border-radius: 10px;}
+        .submit:hover{font-size: 110%;}
+        .txtBar:hover{padding: 1.5%;}
+        textarea:hover{padding: 1.5%;}        
+        input[type="radio"] {
+        background-color: #fff;
+        margin: 0;
+        font: inherit;
+        color: currentColor;
+        width: 1.15em;
+        height: 1.15em;
+        border: 0.15em solid currentColor;
+        border-radius: 50%;
+        transform: translateY(-0.075em);
+        }
+        input[type="radio"]::before {
+        content: "";
+        width: 0.65em;
+        height: 0.65em;
+        border-radius: 50%;
+        transform: scale(0);
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 1em 1em var(--form-control-color);
+        background-color: CanvasText;
+        }   
+        input[type="radio"]:checked {
+        transform: scale(1);
+        color:rgb(111, 254, 254);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 >Fale conosco</h1>
+        <nav>
+            <a href="home.html" class="linkTopBar">Home</a>
+            <a href="sustentabilidade.html" class="linkTopBar">O que é sustentablidade</a>
+            <a href="agendaONU.html" class="linkTopBar">Agenda 2030 da Onu</a>
+            <a href="17Objetivos.html" class="linkTopBar">Os 17 Objetivos</a>
+            <a href="form.html" id="linkSelect">Fale conosco</a>
+           
+        </nav>
+    </header>
+    <br><br>
+    <div >
+
+        <h1 style="text-align: center; font-size: 160%;">Entre em contato conosco</h1><br>
+	<div style="align-items:center; font-weight: bold;font-size: 110%">
+	<form action="form.html" onSubmit="" method="POST" style="text-align: center;">
+		<label for="nome">Nome completo:</label><br>
+		<input style="text-align: left;"type="text" class="txtBar" placeholder="Digite seu nome aqui" name="nome" required><br><br>
+
+		<label for="email">Endereço de email:</label><br>
+		<input style="text-align: left; "type="email" class="txtBar" name="email" required placeholder="email@gmail.com"><br><br>
+
+		<label for="telefone">Número de telefone:</label><br>
+		<input style="text-align: left; "type="tel" class="txtBar" name="telefone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="+00 01 23456-7890"><br><br>
+
+        <div><br>
+            <h1>Avaliação:</h1>
+            <input type="radio" class="radio" id="D" name="avaliacao">
+            <label for="contato-email" class="pessimo">Péssima</label>
+        
+            <input type="radio" class="radio" id="C" name="avaliacao">
+            <label for="contato-email" class="ruim">Ruim</label>
+        
+            <input type="radio" class="radio" id="B" name="avaliacao">
+            <label for="contato-email" class="bom">Boa</label>
+        
+            <input type="radio" class="radio" id="A" checked name="avaliacao">
+            <label for="contato-email" class="excelente">Excelente</label>
+        </div><br>
+        <br><br>
+		<label style="font-size: large;" for="mensagem">Mensagem:</label><br>
+		<textarea style="text-align: left;" rows="10" cols="80"  id="mensagem" name="mensagem" required placeholder="Mensagem aqui"></textarea><br><br>
+	</div>
+        <br><br>
+        <input type="checkbox" class="termospolitica" required>
+        <label style="font-size: large;" class="termospolitica">Concordo com os termos</label>
+        <br><br>
+		<div>
+        <a href="termosdeuso.pdf" class="termos"> Termos de serviço </a>
+        <a href="politicadeprivacidade.pdf" class="termos"> politica de privacidade </a>
+        <br><br><br><br>
+		<input class="submit" type="submit" value="Enviar">
+        <br><br><br><br>
+    </div>
+	<br><br>
+	</form>
+    <footer>
+        <h2 style="color:aliceblue">Grupo 2</h2>
+        <div class="nomes"> 
+            <div>
+                <p>Lucas Fantinati Ramos....n°15<br>Rm86722</p>
+                <p>Rayssa Bezerra Gomes....n°28<br>Rm86534</p>
+                <p>Matheus Rodrigo de souza....n°22<br>Rm86572 </p>
+            </div>
+            
+            <div>
+                <p>Sofia Souza Rodrigues....n°31<br>Rm86740</p>
+                <p>Gabriel Vasconcelos Paz de Lima....n°4<br>Rm86476 </p>
+                <p>Matheus Alves Cavalcante....n°20<br>Rm86718</p>
+            </div>
+        <div>
+                <p>Raphael de Oliveira Vilas Boas....n°27<br>Rm86463</p>
+                <p>Marcos Vinicius Proença de Oliveira....n°16<br>Rm86766 </p>
+                <p>Maria Eduarda Carvalho Alves Pereira....n°17<br>Rm86744</p>
+        </div>
+        
+    </div>
+    
+     
+    </footer>
+</body>
